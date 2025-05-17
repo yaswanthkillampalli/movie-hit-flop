@@ -1,0 +1,49 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  align-items: center;
+}
+
+.input {
+  padding: 0.5em;
+  margin: 0.5em;
+  border-radius: 4px;
+  border: 1px solid #646cff;
+  background: #1a1a1a;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.canvas {
+  margin-top: 1em;
+  border: 1px solid #646cff;
+}
+
+.prediction {
+  font-size: 1.2em;
+  margin-top: 1em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.flexingStles {
+  display: flex;
+}
+@media (prefers-color-scheme: light) {
+  .input {
+    background: #f9f9f9;
+    color: #213547;
+  }
+  .canvas {
+    border-color: #747bff;
+  }
+}
